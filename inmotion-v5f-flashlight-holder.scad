@@ -92,8 +92,6 @@ module flashlight_clamp ()
 
 render ()
 difference () {
-    mount_width = 34;
-
     union () {
         ccube ([mount_width, 30, 40], center = X);
 
