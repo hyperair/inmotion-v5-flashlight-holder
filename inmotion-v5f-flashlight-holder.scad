@@ -90,4 +90,7 @@ difference () {
     rotate (90, X)
     ccube (100, center = X + Y);
 
+    /* velcro attachment spot */
+    translate ([0, 0, 15])
+    ccube ([100, 15, 3], center = X + Y);
 }
